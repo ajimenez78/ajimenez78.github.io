@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 50px;
-    background-color: lightsteelblue;
+    background-color: lightblue;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
@@ -20,7 +20,7 @@ table {
 }
 
 thead {
-    background-color: cornflowerblue;
+    background-color: steelblue;
 }
 
 th {
@@ -29,7 +29,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: steelblue;
+    background-color: lightsteelblue;
 }
 
 td {
@@ -40,6 +40,11 @@ td {
 td.property-name {
     font-weight: bold;
 }
- td.property-value {
+
+td.property-value {
     color: darkblue;
- }
+}
+
+footer p {
+    font-size: small;
+}
