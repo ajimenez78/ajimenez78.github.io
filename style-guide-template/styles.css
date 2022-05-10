@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 30px;
+    background-color: #CBD18F;
+    line-height: 1.5;
+    font-weight: regular;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    background-color: #E3B448;
+    border: 1px solid black;
+    margin: 50px 0;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+}
+
+.colors ul li div {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px 25px;
+    padding: 15px 0;
+    height: 70px;
+    width: 140px;
+    text-align: center;
+}
+
+.colors ul li div div {
+    border: 0;
+    margin: 0;
+}
+
+.color-mustard {
+    background-color: #E3B448;
+}
+
+.color-sage {
+    background-color: #CBD18F;
+}
+
+.color-forest-green {
+    background-color: #3A6B35;
+}
+
+.fonts ul li {
+    margin: 10px;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-source-sans-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.font-ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bold-style-pangram {
+    font-weight: bolder;
+}
+
+.italic-style-pangram {
+    font-style: italic;
+}
+
+.underlined-style-pangram {
+    text-decoration: underline;
+}
+
+.text-styles ul li {
+    margin: 10px;
+}
+
+.text-styles ul li div ul li {
+    display: list-item;
+    margin-left: 20px;
+}
+
+ h1, .heading1 {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ h2, .heading2 {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+ h3, .heading3 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+.paragraph-text {
+    font-weight: regular;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+ }
