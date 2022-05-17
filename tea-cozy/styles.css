@@ -86,3 +86,40 @@ footer {
     height: 200px;
     margin-bottom: 10px;
 }
+
+.locations {
+    background-image: url("img/img-locations-background.jpg");
+    height: 500px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.locations h2 {
+    margin: 0 auto 15px;
+    padding: 85px 0 0;
+}
+
+.location-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location-list li {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 0 20px 40px;
+    line-height: 3;
+}
+
+.contact-info {
+    margin: 5px;
+    line-height: 2.5;
+}
+
+footer {
+    text-align: left;
+    margin-bottom: 30px;
+}
